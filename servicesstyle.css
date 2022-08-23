@@ -5,7 +5,7 @@
 }
 .bluebg{
     background-image: url(images/greenbg.jpg);
-    min-height: 110vh;
+    min-height: 38vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -43,26 +43,8 @@ nav img{
 .nav-options ul li a:hover{
     color: #D4A017 ;
 }
-.text{
-    color: aliceblue;
-    position: absolute;
-    top: 70%;
-    right: 40px;
-    text-align: right;
-}
-.text h1{
-    font-size: 55px;
-    font-weight: lighter;
-    color: white;
-}
-.text h1 span{
-    color: #FFDB58;
-}
-.text h4{
-    font-size: 30px;
-    font-family:Arial;
-    font-weight: lighter;
-}
+
+
 .welcome {
     width: 100%;
     min-height: 50px;
@@ -88,14 +70,13 @@ table tr td h2{
     font-size: 35px;
     color: #353935;
 }
+table tr td h2 span{
+    color: #D4A017;
+}
 table tr td hr{
-    width: 38%;
+    width: 33%;
     color: orange;
     size: 3;
-}
-table tr td h3{
-    font-size: 28px;
-    color: #353935;
 }
 
 table tr td p{
@@ -105,83 +86,19 @@ table tr td p{
     color: #3D3D3D;
     text-align: left;
 }
-table tr td p a{
-    text-decoration: none;
-    color: orange;
-}
+
 table tr td img{
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 500px;
     box-shadow: 5px 5px 10px grey ;
     margin-right: 20px;
 }
 
-.designingprocess{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    background-color: #f2f2f2;
-}
-
-h1{
-    font-weight: 600;
-    color: #353935;
-}
 
 
-.strategyrow{
-    margin-top: 2%;
-    display:flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
-.strategy{
-    flex-basis: 31%;
-    background-color: #fff;
-    border-radius: 7px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.strategy ul{
-    padding-left: 20px;
-}
-.strategy li{
-    text-align: left;
-    padding-left: 5px;
-}
-.row1{
-    margin:3%;
-    display: flex;
-    justify-content: space-between;
- }
- .white{
-     padding-left: 25px;
- }
- .white img{
-    margin: 12px;
-    box-shadow: 5px 5px 10px grey ;
- }
- section{
-    margin-bottom: 30px;
- }
-.viewmore {
-    display: inline-block;
-    color: rgb(48, 48, 48);
-    text-decoration: none;
-    padding-left: 3px;
-    border: 1px solid #f6f4f4;
-    background: #d49e179d;
-    margin-left: 550px;
-    border-radius: 2px;
- }
- .viewmore h2{
-    text-align: center;
-    font-size: 30px;
- }
+
+
 .footer{
     background-color: #01281a ; 
     padding: 20px 0;
@@ -247,6 +164,4 @@ p{
     color: white;
     text-align: center;
 }
-
-
 
